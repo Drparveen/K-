@@ -18,11 +18,11 @@ var gameState="start";
 
 
 function preload() {
-  earthimg = loadImage("/assets/background1.jpg");
-  spaceimg = loadImage("/assets/SPACE1.jpg")
-  hanumanjiimg = loadImage("/assets/hanumanji2.png");
-  sunimg = loadImage("/assets/SUNPICK1.jpg");
-  birdImg=loadAnimation("/assets/bird/bird1.png", "/assets/bird/bird2.png","/assets/bird/bird3.png", "/assets/bird/bird4.png", "/assets/bird/bird5.png")
+  earthimg = loadImage("./assets/background1.jpg");
+  spaceimg = loadImage("./assets/SPACE1.jpg")
+  hanumanjiimg = loadImage("./assets/hanumanji2.png");
+  sunimg = loadImage("./assets/SUNPICK1.jpg");
+  birdImg=loadAnimation("./assets/bird/bird1.png", "./assets/bird/bird2.png","./assets/bird/bird3.png", "./assets/bird/bird4.png", "./assets/bird/bird5.png")
 
 }
 
